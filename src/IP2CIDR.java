@@ -73,8 +73,8 @@ public class IP2CIDR {
 	
 	public static void main(String[] args)
 	{
-		String startIP = "1.1.1.111";
-		String endIP = "1.1.1.120";
+		String startIP = "0.0.0.4";
+		String endIP = "0.0.0.11";
 		//System.out.println(ipToLong(startIP));
 		
 		System.out.println(range2CIDRList(startIP, endIP));

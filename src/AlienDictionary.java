@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 /*
@@ -8,7 +8,7 @@ import java.util.*;
  * If you need more classes, simply define them inline.
  */
 
-class Solution {
+class AlienDictionary {
     public String alienOrder(String[] words) {
       if (words == null) return null;
       
@@ -88,7 +88,7 @@ class Solution {
     }
     
     public static void main(String [] args) {
-      Solution outer = new Solution();
+    	AlienDictionary outer = new AlienDictionary();
       
       String[] words = {"wet", "etra"};
       
